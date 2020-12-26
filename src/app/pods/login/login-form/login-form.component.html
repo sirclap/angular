@@ -1,0 +1,14 @@
+<p>login-form works!</p>
+<form [formGroup]="loginForm">
+  <input name="email" [formControl]="emailControl" />
+  <div *ngIf="emailControl.invalid">
+    <div *ngIf="emailControl.errors.required">El usuario es obligatorio</div>
+  </div>
+  <input name="password" type="password" [formControl]="passwordControl" />
+  <div *ngIf="passwordControl.invalid">
+    <div *ngIf="passwordControl.errors.required">
+      La contraseña es obligatoria
+    </div>
+  </div>
+  <input type="submit" [disabled]="loginForm.invalid" (click)="login()" />
+</form>

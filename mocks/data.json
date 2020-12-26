@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$rWT4eqIaYgUDXIBfqPO1j.1aOonwjhvJbcmmDJevol8AGHQbkgZRi",
+      "firstname": "José",
+      "id": 1
+    },
+    {
+      "email": "master8@lemoncode.net",
+      "password": "$2a$10$fSUGu6O3gpR47G8fz6j0S.mkfrHHB/j8SWn3dIkJ5ryHasSMKblVS",
+      "firstname": "Marcos",
+      "id": 2
+    }
+  ],
+  "otro": [{ "cadena": "algo" }, { "cadena": "algo2" }]
+}
